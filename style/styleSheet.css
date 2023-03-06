@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #3937fa;
+  color: #eef6fe;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  margin-top: 40px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-icons {
+  height: 6rem;
+  width: 6rem;
+}
+
+#country-name {
+  display: inline-block;
+  width: 70vw;
+  font-weight: 500;
+  font-size: 6.4rem;
+  color: #eef6fe;
+  border: none;
+  background-color: #3937fa;
+  text-align: center;
+  outline: none;
+}
+
+.temperature-value {
+  font-size: 64px;
+  font-weight: bold;
+  margin-left: 30px;
+  position: relative;
+  top: -28px;
+}
+
+#feel-like-data {
+  color: #3896ff;
+  font-size: 32px;
+  font-weight: medium;
+ position: relative;
+ top: -27px;
+  margin-left: 130px;
+}
+
+.description-text {
+  color: #79dcf7;
+  font-size: 3rem;
+  font-weight: medium;
+}
+
+@media (min-width: 270px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media (min-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+}
